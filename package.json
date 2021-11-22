@@ -1,11 +1,11 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felipecespedes/react-native-bigheads"
+    "url": "https://github.com/uninow/react-native-bigheads"
   },
   "keywords": [
     "bigheads",
@@ -13,7 +13,7 @@
     "native"
   ],
   "bugs": {
-    "url": "https://github.com/felipecespedes/react-native-bigheads/issues"
+    "url": "https://github.com/uninow/react-native-bigheads/issues"
   },
   "files": [
     "dist",
