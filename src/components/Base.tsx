@@ -108,7 +108,7 @@ export const Base = ({
     >
       <Svg ref={svgRef} viewBox="0 0 1000 990" {...rest}>
         {showBackground && <BgMask id="mask" />}
-        <G mask="url(#mask)">
+        <G mask={showBackground ? 'url(#mask)' : undefined}>
           {showBackground && <BgShape bgColor={bgColor} />}
           <BackHat color={hatColor} scale={hatScale} />
           <BackHair hairColor={hairColor} hasHat={FrontHat !== Noop} />
